@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    color:#222;
+    font-family: 'josefin sans';
+    text-align: justify;
+}
+body{
+    padding:2rem 2.5rem;
+    background:linear-gradient(
+        #f8a1d1 50%,#222 50% 
+    );
+
+}
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 1.1;
+    text-transform:uppercase;
+    border-top:1px solid #888;
+    border-bottom:1px solid #888;
+    padding: 0.75rem 0;
+    margin-bottom:2rem;
+    
+}
+h3{
+    font-size: 1rem;
+    margin-bottom:4px;
+    color:#2c5bb1;
+}
+p{
+    line-height:1.5;
+}
+section + section{
+    margin-top:2rem;
+}
+li +li{
+    margin-top:1rem;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+    ul{
+        list-style-type:  none;
+    }
+
+.profile img{
+    border-radius: 9999px;
+    width:15rem;
+    height:15rem;
+}
+.profile {
+    text-align:center;
+}
+    .profile p{
+        font-size: 1.25rem;
+        margin-bottom:1rem;
+        color:#888;
+
+    }
+.contact li{
+    
+    text-transform: uppercase;
+    padding:1rem;
+    border-bottom:1px solid #888;
+    color:#888;
+    font-size: 0.8rem;
+    
+}
+.nd {
+    text-align: right;
+}
+.contact ul{
+    margin-top:-2rem;
+
+}
+.timeline .event + .event{
+    padding-top:1rem;
+}
+
+.event{
+    display:grid;
+    grid-template-columns: 5ch 1fr;
+
+}
+.content{
+    border-left: 1px solid #888;
+padding-left:1rem;
+margin-left:1rem;
+}
+.content > h3 + p{
+    margin-bottom:1rem; 
+    color:#333;
+}
+.resume{
+    display:grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap:2rem;
+    background-color: white;
+    padding:2rem;
+    max-width: 1000px;
+    margin:auto;
+
+}
+.nd img{
+    float:left;
+}
+
+.objective{
+    text-align: justify;
+}
